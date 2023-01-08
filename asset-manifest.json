@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bingo/static/css/main.4f6191d0.css",
+    "main.js": "/bingo/static/js/main.c81f52e3.js",
+    "static/js/787.e54eb4d0.chunk.js": "/bingo/static/js/787.e54eb4d0.chunk.js",
+    "index.html": "/bingo/index.html",
+    "main.4f6191d0.css.map": "/bingo/static/css/main.4f6191d0.css.map",
+    "main.c81f52e3.js.map": "/bingo/static/js/main.c81f52e3.js.map",
+    "787.e54eb4d0.chunk.js.map": "/bingo/static/js/787.e54eb4d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f6191d0.css",
+    "static/js/main.c81f52e3.js"
+  ]
+}
