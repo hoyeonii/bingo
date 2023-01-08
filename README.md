@@ -1,3 +1,15 @@
+Zoomie Bingo
+
+Rules
+- A player wins by completing a row, column, or diagonal.
+- There's a free slot (always on) in the middle
+- You can have multiple bingos
+
+Deployed
+- https://hoyeonii.github.io/bingo/
+
+=============================================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
