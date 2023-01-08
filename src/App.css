@@ -1,38 +1,53 @@
+:root {
+  --font-main-dark: #00b9aa;
+  --font-main-light: rgb(230, 255, 218);
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding: 2rem;
+  /* background: rgb(230, 255, 218); */
+  background: linear-gradient(
+    0deg,
+    rgba(230, 255, 218, 1) 0%,
+    rgba(91, 196, 228, 1) 100%
+  );
+  color: var(--font-main-light);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App > div {
+  position: relative;
+  max-width: 820px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  margin: 0;
+}
+
+#bingoSizeSelect {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 0.5rem;
+  margin: 0.5rem;
+  /* background-color: rgba(230, 255, 218, 0.9); */
+  border-radius: 0.5rem;
+  border: none;
+  outline: 0 none;
+}
+#bingoSizeSelect option {
+  /* background: black; */
+  /* color: #fff; */
+  padding: 3px 0;
+}
+
+@media screen and (max-width: 720px) {
+  .App {
+    padding: 0.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  #bingoSizeSelect {
+    position: static;
   }
 }

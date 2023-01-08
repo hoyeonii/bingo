@@ -1,0 +1,27 @@
+#itemBox {
+  display: table;
+  color: var(--font-main-dark);
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 0.2rem solid white;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+  min-height: 100px;
+}
+#itemBox:hover {
+  scale: 1.05;
+}
+#itemBox span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 720px) {
+  #itemBox {
+    padding: 0.2rem;
+    font-size: 10px;
+  }
+}
